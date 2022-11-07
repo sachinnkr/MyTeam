@@ -249,15 +249,27 @@ i:hover{
 
 
 @media (max-width:640px){
-   .left{
-    font-size: 16px;
-    margin-right: 0px;
-   }
-   .left ul{
-    margin-left: 12px;
-   }
-   .right{
-    margin: auto 10px;
+    .left{
+      font-size: 14px;
+      margin-left: 15px;
+     }
+     .left ul{
+     margin-left: -10px;
+    }
+    .right{
+     margin: auto 10px;
+        display:flex
+    }
+    .right a{
+    cursor: pointer;
+    color: white;
+    font-size:12px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 10px 19px;
+    border-radius: 20px;
+    margin-left:-50px;
    }
    .container-1{
     width: 80%;
